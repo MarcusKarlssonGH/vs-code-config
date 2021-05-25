@@ -219,19 +219,7 @@
         "command": "-editor.action.startFindReplaceAction",
         "when": "editorFocus || editorIsOpen"
     }
-    // { This messes up the "clear console"
-    //     "key": "ctrl+l",
-    //     "command": "workbench.action.nextPanelView",
-    //     "when": "panelFocus"
-    // },
-    // {
-    //     "key": "ctrl+h",
-    //     "command": "workbench.action.previousPanelView",
-    //     "when": "panelFocus"
-    // },
 
-    // Todo: Append old settings
-    // Remove / Comment most things in settings.vim?
-    // scale down and modify which keys
-    // Clean up settings. Lots of weird stuff there now
+    // TODO: Fix changing groups in sideBar focus. Seems useful when using GitLens/Source
+    // TODO: Fix navigation in sideBar focus. This only works for file explorer now. (Nice to have for bookmarks, gitlens, etc)
 ]
